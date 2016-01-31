@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49BB1E4E1C5E361D0096E7FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1E4D1C5E361D0096E7FE /* AppDelegate.swift */; };
+		49BB1E501C5E361D0096E7FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1E4F1C5E361D0096E7FE /* ViewController.swift */; };
+		49BB1E531C5E361D0096E7FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BB1E511C5E361D0096E7FE /* Main.storyboard */; };
+		49BB1E551C5E361D0096E7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BB1E541C5E361D0096E7FE /* Assets.xcassets */; };
+		49BB1E581C5E361D0096E7FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BB1E561C5E361D0096E7FE /* LaunchScreen.storyboard */; };
+		49BB1E631C5E37190096E7FE /* AVCaptureDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1E601C5E37190096E7FE /* AVCaptureDevice+Extension.swift */; };
+		49BB1E641C5E37190096E7FE /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1E611C5E37190096E7FE /* CGRect+Extension.swift */; };
+		49BB1E651C5E37190096E7FE /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1E621C5E37190096E7FE /* String+Extension.swift */; };
+		49BB1E691C5E375D0096E7FE /* BRBAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1E671C5E375D0096E7FE /* BRBAlert.swift */; };
+		49BB1E6A1C5E375D0096E7FE /* BRBCACavityMaskLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1E681C5E375D0096E7FE /* BRBCACavityMaskLayer.swift */; };
+		49BB1E731C5E37950096E7FE /* BRBNativeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1E6C1C5E37950096E7FE /* BRBNativeScanner.swift */; };
+		49BB1E741C5E37950096E7FE /* BRBNativeScanPreviewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1E6D1C5E37950096E7FE /* BRBNativeScanPreviewLayer.swift */; };
+		49BB1E751C5E37950096E7FE /* BRBScanCodeDectorationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1E6E1C5E37950096E7FE /* BRBScanCodeDectorationLayer.swift */; };
+		49BB1E761C5E37950096E7FE /* BRBScanCodePreviewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1E6F1C5E37950096E7FE /* BRBScanCodePreviewLayer.swift */; };
+		49BB1E771C5E37950096E7FE /* BRBScanCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1E701C5E37950096E7FE /* BRBScanCodeViewController.swift */; };
+		49BB1E781C5E37950096E7FE /* BRBScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1E711C5E37950096E7FE /* BRBScanner.swift */; };
+		49BB1E791C5E37950096E7FE /* BRBScanPreviewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1E721C5E37950096E7FE /* BRBScanPreviewLayer.swift */; };
+		49BB1E7C1C5E39230096E7FE /* ScanCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BB1E7A1C5E39230096E7FE /* ScanCode.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49BB1E4A1C5E361D0096E7FE /* ScanQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BB1E4D1C5E361D0096E7FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49BB1E4F1C5E361D0096E7FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49BB1E521C5E361D0096E7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49BB1E541C5E361D0096E7FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49BB1E571C5E361D0096E7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49BB1E591C5E361D0096E7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BB1E601C5E37190096E7FE /* AVCaptureDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Extension.swift"; sourceTree = "<group>"; };
+		49BB1E611C5E37190096E7FE /* CGRect+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		49BB1E621C5E37190096E7FE /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		49BB1E671C5E375D0096E7FE /* BRBAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRBAlert.swift; sourceTree = "<group>"; };
+		49BB1E681C5E375D0096E7FE /* BRBCACavityMaskLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRBCACavityMaskLayer.swift; sourceTree = "<group>"; };
+		49BB1E6C1C5E37950096E7FE /* BRBNativeScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRBNativeScanner.swift; sourceTree = "<group>"; };
+		49BB1E6D1C5E37950096E7FE /* BRBNativeScanPreviewLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRBNativeScanPreviewLayer.swift; sourceTree = "<group>"; };
+		49BB1E6E1C5E37950096E7FE /* BRBScanCodeDectorationLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRBScanCodeDectorationLayer.swift; sourceTree = "<group>"; };
+		49BB1E6F1C5E37950096E7FE /* BRBScanCodePreviewLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRBScanCodePreviewLayer.swift; sourceTree = "<group>"; };
+		49BB1E701C5E37950096E7FE /* BRBScanCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRBScanCodeViewController.swift; sourceTree = "<group>"; };
+		49BB1E711C5E37950096E7FE /* BRBScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRBScanner.swift; sourceTree = "<group>"; };
+		49BB1E721C5E37950096E7FE /* BRBScanPreviewLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRBScanPreviewLayer.swift; sourceTree = "<group>"; };
+		49BB1E7B1C5E39230096E7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ScanCode.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49BB1E471C5E361D0096E7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49BB1E411C5E361C0096E7FE = {
+			isa = PBXGroup;
+			children = (
+				49BB1E4C1C5E361D0096E7FE /* ScanQRCode */,
+				49BB1E4B1C5E361D0096E7FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49BB1E4B1C5E361D0096E7FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49BB1E4A1C5E361D0096E7FE /* ScanQRCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49BB1E4C1C5E361D0096E7FE /* ScanQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				49BB1E6B1C5E37950096E7FE /* ScanCode */,
+				49BB1E661C5E375D0096E7FE /* Misc */,
+				49BB1E5F1C5E36E20096E7FE /* Extension */,
+				49BB1E4D1C5E361D0096E7FE /* AppDelegate.swift */,
+				49BB1E4F1C5E361D0096E7FE /* ViewController.swift */,
+				49BB1E511C5E361D0096E7FE /* Main.storyboard */,
+				49BB1E7A1C5E39230096E7FE /* ScanCode.storyboard */,
+				49BB1E541C5E361D0096E7FE /* Assets.xcassets */,
+				49BB1E561C5E361D0096E7FE /* LaunchScreen.storyboard */,
+				49BB1E591C5E361D0096E7FE /* Info.plist */,
+			);
+			path = ScanQRCode;
+			sourceTree = "<group>";
+		};
+		49BB1E5F1C5E36E20096E7FE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				49BB1E601C5E37190096E7FE /* AVCaptureDevice+Extension.swift */,
+				49BB1E611C5E37190096E7FE /* CGRect+Extension.swift */,
+				49BB1E621C5E37190096E7FE /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		49BB1E661C5E375D0096E7FE /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				49BB1E671C5E375D0096E7FE /* BRBAlert.swift */,
+				49BB1E681C5E375D0096E7FE /* BRBCACavityMaskLayer.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		49BB1E6B1C5E37950096E7FE /* ScanCode */ = {
+			isa = PBXGroup;
+			children = (
+				49BB1E6C1C5E37950096E7FE /* BRBNativeScanner.swift */,
+				49BB1E6D1C5E37950096E7FE /* BRBNativeScanPreviewLayer.swift */,
+				49BB1E6E1C5E37950096E7FE /* BRBScanCodeDectorationLayer.swift */,
+				49BB1E6F1C5E37950096E7FE /* BRBScanCodePreviewLayer.swift */,
+				49BB1E701C5E37950096E7FE /* BRBScanCodeViewController.swift */,
+				49BB1E711C5E37950096E7FE /* BRBScanner.swift */,
+				49BB1E721C5E37950096E7FE /* BRBScanPreviewLayer.swift */,
+			);
+			path = ScanCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49BB1E491C5E361D0096E7FE /* ScanQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BB1E5C1C5E361D0096E7FE /* Build configuration list for PBXNativeTarget "ScanQRCode" */;
+			buildPhases = (
+				49BB1E461C5E361D0096E7FE /* Sources */,
+				49BB1E471C5E361D0096E7FE /* Frameworks */,
+				49BB1E481C5E361D0096E7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanQRCode;
+			productName = ScanQRCode;
+			productReference = 49BB1E4A1C5E361D0096E7FE /* ScanQRCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49BB1E421C5E361C0096E7FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RadioBear;
+				TargetAttributes = {
+					49BB1E491C5E361D0096E7FE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 49BB1E451C5E361C0096E7FE /* Build configuration list for PBXProject "ScanQRCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49BB1E411C5E361C0096E7FE;
+			productRefGroup = 49BB1E4B1C5E361D0096E7FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49BB1E491C5E361D0096E7FE /* ScanQRCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49BB1E481C5E361D0096E7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BB1E581C5E361D0096E7FE /* LaunchScreen.storyboard in Resources */,
+				49BB1E551C5E361D0096E7FE /* Assets.xcassets in Resources */,
+				49BB1E7C1C5E39230096E7FE /* ScanCode.storyboard in Resources */,
+				49BB1E531C5E361D0096E7FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49BB1E461C5E361D0096E7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BB1E731C5E37950096E7FE /* BRBNativeScanner.swift in Sources */,
+				49BB1E501C5E361D0096E7FE /* ViewController.swift in Sources */,
+				49BB1E641C5E37190096E7FE /* CGRect+Extension.swift in Sources */,
+				49BB1E771C5E37950096E7FE /* BRBScanCodeViewController.swift in Sources */,
+				49BB1E791C5E37950096E7FE /* BRBScanPreviewLayer.swift in Sources */,
+				49BB1E6A1C5E375D0096E7FE /* BRBCACavityMaskLayer.swift in Sources */,
+				49BB1E4E1C5E361D0096E7FE /* AppDelegate.swift in Sources */,
+				49BB1E751C5E37950096E7FE /* BRBScanCodeDectorationLayer.swift in Sources */,
+				49BB1E651C5E37190096E7FE /* String+Extension.swift in Sources */,
+				49BB1E631C5E37190096E7FE /* AVCaptureDevice+Extension.swift in Sources */,
+				49BB1E741C5E37950096E7FE /* BRBNativeScanPreviewLayer.swift in Sources */,
+				49BB1E781C5E37950096E7FE /* BRBScanner.swift in Sources */,
+				49BB1E691C5E375D0096E7FE /* BRBAlert.swift in Sources */,
+				49BB1E761C5E37950096E7FE /* BRBScanCodePreviewLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49BB1E511C5E361D0096E7FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BB1E521C5E361D0096E7FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49BB1E561C5E361D0096E7FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BB1E571C5E361D0096E7FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		49BB1E7A1C5E39230096E7FE /* ScanCode.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49BB1E7B1C5E39230096E7FE /* Base */,
+			);
+			name = ScanCode.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49BB1E5A1C5E361D0096E7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49BB1E5B1C5E361D0096E7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49BB1E5D1C5E361D0096E7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ScanQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.radiobear.ScanQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49BB1E5E1C5E361D0096E7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ScanQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.radiobear.ScanQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49BB1E451C5E361C0096E7FE /* Build configuration list for PBXProject "ScanQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BB1E5A1C5E361D0096E7FE /* Debug */,
+				49BB1E5B1C5E361D0096E7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BB1E5C1C5E361D0096E7FE /* Build configuration list for PBXNativeTarget "ScanQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49BB1E5D1C5E361D0096E7FE /* Debug */,
+				49BB1E5E1C5E361D0096E7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49BB1E421C5E361C0096E7FE /* Project object */;
+}
